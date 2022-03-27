@@ -1,6 +1,5 @@
 import React from 'react';
 import Cart from '../components/Cart';
-import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Head from 'next/head';
@@ -14,7 +13,6 @@ const index = () => {
       </Head>
       <Hero />
       <Cart />
-      <Footer />
     </main>
   );
 };
